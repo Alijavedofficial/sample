@@ -67,10 +67,10 @@ const HamburgerMenu = () => {
               {/* Sub-menu */}
               {isSubMenuOpen && (
                 <ul className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md z-10">
-                  <li className="p-2 text-md hover:bg-gray-100">
+                  <li className="p-2 text-[16px] cursor-pointer hover:bg-gray-100 opacity-80 hover:opacity-100 transition-opacity">
                     <a>Our Team</a>
                   </li>
-                  <li className="p-2 text-md hover:bg-gray-100">
+                  <li className="p-2 text-[16px] cursor-pointer hover:bg-gray-100 opacity-80 hover:opacity-100 transition-opacity">
                     <a>Our Mission</a>
                   </li>
                 </ul>
